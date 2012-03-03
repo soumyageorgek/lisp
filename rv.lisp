@@ -1,0 +1,5 @@
+(defun rev (L)
+  (if (null L)
+    ()          
+    (append (rev (rest L)) (list (first L))))
+)
